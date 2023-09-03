@@ -1,0 +1,32 @@
+.card-pricing__container {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+}
+
+.card-pricing__title {
+  margin-bottom: 3px;
+}
+
+.card-pricing__value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-pricing__console {
+  display: flex;
+}
+
+.card-pricing__console span {
+  color: aqua;
+  font-weight: bolder;
+  margin-right: 10px;
+}
