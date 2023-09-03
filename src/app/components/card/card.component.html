@@ -1,8 +1,8 @@
-<a href="" class="card__container">
-  <img src="assets/bt-5.jpg " alt="" class="card__image" />
-  <app-card-label gameLabel="Exclusive"></app-card-label>
+<a href="" class="card__container" *ngIf="game">
+  <img [src]="game.image" alt="" class="card__image" />
+  <app-card-label [gameLabel]="game.label"></app-card-label>
   <app-card-pricing
-    gameType="Digital PS4"
-    gamePrice="R$ 249,99"
+    [gameType]="game.type"
+    [gamePrice]="game.price"
   ></app-card-pricing>
 </a>
